@@ -1,0 +1,15 @@
+[package]
+name = "uoa"
+version = "0.1.0"
+authors = ["Hugo Reeves <hugo@hugoreeves.com>"]
+edition = "2018"
+repository = "https://github.com/earl-finance/uoa"
+homepage = "https://github.com/earl-finance/uoa"
+readme = "README.md"
+license = "MIT OR Apache-2.0"
+description = "Operate on any Unit of Account - currencies, commodities, etc."
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+rust_decimal = { version = "1.4.1" }
